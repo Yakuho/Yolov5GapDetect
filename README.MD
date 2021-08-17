@@ -1,7 +1,5 @@
 # 基于yolov5的滑块缺口识别
 
-## <div align="center">What is yolo</div>
-
 <div align="center">
 <br>
 <p>
