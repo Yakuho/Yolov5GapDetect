@@ -19,7 +19,7 @@ YOLO系列的算法是目标识别任务中比较前沿的算法之一。由于�
 demo_test.py提供了一个案例用法，只需要修改很少的东西，就可以完成识别任务.
 ```python
 m = Terminal(weights='weights/GapYolov5s.pt', imgsz=160, conf_thres=0.7, iou_thres=0.45)
-boxes = m.forward('data/demo/1001.png')
+boxes = m.forward(path='data/demo/1001.png')
 for box in boxes:
     print(box)
 ```
@@ -29,6 +29,7 @@ for box in boxes:
 
 - weights: 模型的路径地址
 - imgsz: 模型输入的图片尺寸, 一般与训练时设置的尺寸相同就行
+- path: 图片的路径
 
 </details>
 
