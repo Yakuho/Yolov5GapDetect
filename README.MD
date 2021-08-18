@@ -12,7 +12,7 @@
 
 YOLO系列的算法是目标识别任务中比较前沿的算法之一。由于其出色的推理速度、较小的模型大小和妈妈般的呵护 **(提供大量的方便的接口)** ，
 广受开发者的喜爱。下图是YOLOv3与其他目标检测算法性能的比较，其图来自YOLOv3论文原图。**(作者为了突出其性能将YOLOv3性能曲线标在了坐标系外)**
-![text](./docs/pic0.png)
+![text](https://img-blog.csdnimg.cn/2021071115232457.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTg2MTcwMA==,size_16,color_FFFFFF,t_70)
 
 ### 模型使用
 
